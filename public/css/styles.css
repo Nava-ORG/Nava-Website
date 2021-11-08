@@ -1022,6 +1022,11 @@ a:hover.back-to-top {
 {
 	margin-bottom: 15px;
 }
+.header-text
+{
+	padding-right: 20px;
+	height: 100%
+}
 @media (min-width: 1200px) {
 
 	.h1-large {
