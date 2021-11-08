@@ -2,14 +2,14 @@
   "name": "nava-website",
   "version": "1.0.0",
   "description": "The Nava official website source ",
-  "url": "https://github.com/Nava-ORG/Nava-Video-Player",
+  "url": "https://github.com/Nava-ORG/Nava-Website",
   "funding": {
     "type": "idpay",
     "url": "https://idpay.ir/nava-donate"
   },
   "repository": {
     "type": "github",
-    "url": "https://github.com/npm/Nava-ORG/Nava-Video-Player"
+    "url": "https://github.com/npm/Nava-ORG/Nava-Website"
   },
   "author": "nava",
   "scripts": {
