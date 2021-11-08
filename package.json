@@ -2,58 +2,42 @@
   "name": "nava-website",
   "version": "1.0.0",
   "description": "The Nava official website source ",
-  "url": "https://github.com/Nava-ORG/Nava-Website",
-  "funding": {
-    "type": "idpay",
-    "url": "https://idpay.ir/nava-donate"
+  "main": "./src/server.ts",
+  "scripts": {
+    "start": "ts-node ./src/server.ts"
+  },
+  "engines": {
+    "node": "16.0.0"
   },
   "repository": {
-    "type": "github",
-    "url": "https://github.com/npm/Nava-ORG/Nava-Website"
+    "type": "git",
+    "url": "git+https://github.com/Nava-ORG/Nava-Website.git"
   },
-  "author": "nava",
-  "scripts": {
-    "prebuild": "rimraf dist",
-    "build": "nest build",
-    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "nest start",
-    "start:dev": "nest start --watch",
-    "start:debug": "nest start --debug --watch",
-    "start:prod": "node dist/main",
-    "lint": "eslint '{src,apps,libs,test}/**/*.ts' --fix",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:cov": "jest --coverage",
-    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "echo 'No e2e tests implemented yet.'"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nava-ORG/Nava-Website/issues"
   },
+  "homepage": "https://github.com/Nava-ORG/Nava-Website#readme",
   "dependencies": {
-    "@nestjs/common": "8.1.2",
-    "@nestjs/core": "8.1.2",
-    "@nestjs/platform-express": "8.1.2",
-    "hbs": "4.1.2",
-    "pug": "3.0.2",
-    "reflect-metadata": "0.1.13",
-    "rimraf": "3.0.2",
-    "rxjs": "7.4.0",
-     "@nestjs/cli": "8.1.4",
-    "@nestjs/schematics": "8.0.4",
-    "@nestjs/testing": "8.1.2",
-    "@types/express": "4.17.13",
-    "@types/node": "16.11.6",
-    "@types/supertest": "2.0.11",
-    "@typescript-eslint/eslint-plugin": "4.33.0",
-    "@typescript-eslint/parser": "4.33.0",
-    "eslint": "7.32.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-import": "2.25.2",
-    "jest": "27.3.1",
-    "prettier": "2.4.1",
-    "supertest": "6.1.6",
-    "ts-jest": "27.0.7",
-    "ts-loader": "9.2.6",
-    "ts-node": "10.4.0",
-    "tsconfig-paths": "3.11.0",
-    "typescript": "4.3.5"
+    "@types/ejs": "^3.1.0",
+    "@types/express": "^4.17.13",
+    "@types/express-rate-limit": "^5.1.3",
+    "@types/moment": "^2.13.0",
+    "@types/node-fetch": "^3.0.3",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.4.1",
+    "moment": "^2.29.1",
+    "node-fetch": "^3.0.0",
+    "npm": "^8.0.0",
+    "path": "^0.12.7",
+    "@types/node": "^16.10.3",
+    "nodemon": "^2.0.13",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
   }
 }
